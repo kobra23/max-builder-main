@@ -68,5 +68,21 @@
        font-size:.9rem;
        margin-left: 30px;
     }
+	.footer .footer-contact .tile1{
+		font-size: 2.2rem;
+	}
+	.footer .footer-contact .footer-contact-heading{
+		font-size: 3.5rem;
+	}
+	.footer .footer-contact .footer-contact-info{
+		font-size: 3rem;
+	}
+	.about-info .about-info-heading {
+		font-size: 7rem;
+	}
+	.about-info .about-info-desc{
+		font-size: 2rem;
+	}
 }
+
 /* end */

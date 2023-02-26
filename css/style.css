@@ -17,7 +17,7 @@ html{
 	width: 100%;
 	position: fixed;
 	z-index: 100;
-	background-color: black;
+	background-color:  rgba(47, 140, 23, 0.801);
 }
 .nav-bar {
 	left: 0;
@@ -91,7 +91,7 @@ html{
 	width: 100%;
 	top: 0;
 	left: 0;
-	background-color: rgb(46, 45, 45);
+	background-color: rgb(0, 0, 0);
 	padding: 5rem 0;
 	transform: translateY(-100%);
 	transition: .3s ease transform;
@@ -137,7 +137,7 @@ html{
     width: 100%;
     padding-top: 50px;
     justify-content: center;
-    background-color: black; 
+    background-color: rgb(2, 10, 48); 
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -190,13 +190,11 @@ html{
     text-align: center;
 }
 .about .about-info .about-info-heading{
-    font-size: 4rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
     color: black;
 }
 .about .about-info .about-info-desc{
-    font-size: 1.3rem;
     line-height: 2rem;
     margin-top: 10px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -363,7 +361,7 @@ html{
 .hire .hire-heading{
     color: black;
     font-size: 2.2rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: monospace;
     text-align: center;
 }
 .hire .hire-button{
@@ -378,7 +376,7 @@ html{
     transition: .3s ease background-color;
 }
 .hire .hire-button:hover{
-    background-color: black;
+    background-color: rgba(27, 92, 11, 0.801);
 }
 /* end hire section */
 
@@ -386,7 +384,7 @@ html{
 .footer{
     min-height: 20vh;
     width: 100%;
-    background-color: black;
+    background-color: rgba(27, 92, 11, 0.801);
     color: white;
     flex-direction: column;
     text-align: center;
@@ -410,6 +408,10 @@ html{
     color: white;
     font-size: 3rem;
     margin: .4rem;
-    display: inline-block;    
+    display: inline-block;
+}
+.footer .footer-contact .tile1{
+    font-size: 1.3rem;
+    margin-top: 10px;
 }
 /* emd footer */
