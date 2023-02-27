@@ -316,7 +316,7 @@ html{
 }
 .services .services-info .service .service-card .service-front{
     font-size: 4rem;
-    color: black;
+    color: whitesmoke;
     margin-bottom: 10px;
 }
 .services .services-info .service .service-card .service-front .service-front-heading,
@@ -348,6 +348,17 @@ html{
     background-color: rgba(0, 0, 0, 0.489);
     z-index: -1;
 }
+.services .services-info .service:nth-child(4) .service-card .service-front::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.489);
+    z-index: -1;
+}
+
 /* end service section */
 
 /* hire section */
